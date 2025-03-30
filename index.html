@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header">
+        <h1>E-Commerce</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#item">Items</a></li>
+                <li> <a href="#cart">Cart</a> </li>
+                <li> <a href="#help">Help</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="search">
+        <input type="text" class="search-input" placeholder="Search Your Product">
+    </div>
+    <div class="scroll-container" id="home">
+        <div class="image-wrapper">
+            <!-- First set of images -->
+            <div class="image-container">
+                <div class="image-box">
+                    <img src="images/shirt.jpg" alt="Shirt">
+                    <div class="image-text">Trending Shirts</div>
+                </div>
+                <div class="image-box">
+                    <img src="images/pant.jpg" alt="Pant">
+                    <div class="image-text">Best Pants</div>
+                </div>
+                <div class="image-box">
+                    <img src="images/shoe.jpg" alt="Shoe">
+                    <div class="image-text">New Shoes</div>
+                </div>
+                <div class="image-box">
+                    <img src="images/pods.jpg" alt="Pods">
+                    <div class="image-text">AirPods Pro</div>
+                </div>
+                <div class="image-box">
+                    <img src="images/mobile.jpg" alt="Mobile">
+                    <div class="image-text">Latest Smartphone</div>
+                </div>
+                <div class="image-box">
+                    <img src="images/laptop.jpg" alt="Laptop">
+                    <div class="image-text">Powerful Laptops</div>
+                </div>
+            </div>
+    
+            <!-- Duplicate set of images for infinite scrolling -->
+            <div class="image-container">
+                <div class="image-box">
+                    <img src="images/shirt.jpg" alt="Shirt">
+                    <div class="image-text">Trending Shirts</div>
+                </div>
+                <div class="image-box">
+                    <img src="images/pant.jpg" alt="Pant">
+                    <div class="image-text">Best Pants</div>
+                </div>
+                <div class="image-box">
+                    <img src="images/shoe.jpg" alt="Shoe">
+                    <div class="image-text">New Shoes</div>
+                </div>
+                <div class="image-box">
+                    <img src="images/pods.jpg" alt="Pods">
+                    <div class="image-text">AirPods Pro</div>
+                </div>
+                <div class="image-box">
+                    <img src="images/mobile.jpg" alt="Mobile">
+                    <div class="image-text">Latest Smartphone</div>
+                </div>
+                <div class="image-box">
+                    <img src="images/laptop.jpg" alt="Laptop">
+                    <div class="image-text">Powerful Laptops</div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div class="item-container" id="item">
+        <h2>Suggested For You</h2>
+        <div class="suggested-items">
+            <figure>
+                <img src="images/camera.jpg" alt="Camera">
+                <figcaption class="row1">Camera</figcaption>
+                <br>
+                <figcaption class="row2">2,499</figcaption>
+                <button id="btn" class="camera">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="images/cream.jpg" alt="Cream">
+                <figcaption  class="row1">Cream</figcaption>
+                <br>
+                <figcaption class="row2">489</figcaption>
+                <button id="btn" class="cream">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="images/gamepad.jpg" alt="Gamepad">
+                <figcaption class="row1">Gamepad</figcaption>
+                <br>
+                <figcaption class="row2">4,999</figcaption>
+                <button id="btn" class="gamepad">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="images/headphone.jpg" alt="Headphone">
+                <figcaption class="row1">Headphone</figcaption>
+                <br>
+                <figcaption class="row2">3,999</figcaption>
+                <button id="btn" class="headphone">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="images/speaker.jpg" alt="Speaker">
+                <figcaption class="row1">Speaker</figcaption>
+                <br>
+                <figcaption class="row2">1,199</figcaption>
+                <button id="btn" class="speaker">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="images/hometheatre.jpg" alt="Home Theatre">
+                <figcaption class="row1">Home Theatre</figcaption>
+                <br>
+                <figcaption class="row2">9,999</figcaption>
+                <button id="btn" class="hometheatre">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="images/powerbank.jpg" alt="Power Bank">
+                <figcaption class="row1">Power Bank</figcaption>
+                <br>
+                <figcaption class="row2">1,500</figcaption>
+                <button id="btn" class="powerbank">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="images/soap.jpg" alt="Soap">
+                <figcaption class="row1">Soap</figcaption>
+                <br>
+                <figcaption class="row2">249</figcaption>
+                <button id="btn" class="soap">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="images/wheel.jpg" alt="Wheel">
+                <figcaption class="row1">Wheel</figcaption>
+                <br>
+                <figcaption class="row2">5,100</figcaption>
+                <button id="btn" class="wheel">Add to Cart</button>
+            </figure>
+            <figure>
+                <img src="images/watch.jpg" alt="Watch">
+                <figcaption class="row1">Watch</figcaption>
+                <br>
+                <figcaption class="row2">3,999</figcaption>
+                <button id="btn" class="watch">Add to Cart</button>
+            </figure>
+        </div>
+    </div>
+   <div class="cart-container" id="cart">
+    <h1>Cart Items's</h1>
+    <ul class="ul">
+       
+    </ul>
+   </div> 
+   
+   <div class="help-container" id="help">
+    <h1>Contact Us</h1>
+    <div class="info1-container">
+        <input type="text" class="info1" placeholder="Enter Your Name">
+        <input type="text" class="info1" placeholder="Enter Your Mail">
+    </div>
+    <div class="info2-container">
+        <input type="text" class="info1" placeholder="Place your issues">
+    </div>
+    <button id="submit">Submit</button>
+   </div>
+   <script>
+    var submit = document.querySelector('#submit')
+    var buttons = document.querySelectorAll('#btn');
+    var remove = document.querySelector('#remove')
+    var items = document.querySelector('#items')
+    var camera = document.querySelector('.camera')
+    var cream = document.querySelector('.cream')
+    var gamepad = document.querySelector('.gamepad')
+    var headphone = document.querySelector('.headphone')
+    var hometheatre = document.querySelector('.hometheatre')
+    var speaker = document.querySelector('.speaker')
+    var powerbank = document.querySelector('.powerbank')
+    var soap = document.querySelector('.soap')
+    var wheel = document.querySelector('.wheel')
+    var watch = document.querySelector('.watch')
+    var ul =  document.querySelector('.ul')
+    var cart = document.querySelector('.cart-container')
+
+buttons.forEach((btn) => {
+    btn.addEventListener('mouseover', () => {
+        btn.classList.add('show');
+    });
+
+    btn.addEventListener('mouseout', () => {
+        btn.classList.remove('show');
+    });
+});
+    ul.addEventListener('click',(event)=>{
+        if(event.target.tagName == 'BUTTON')
+        event.target.parentElement.remove()
+    })
+
+   camera.addEventListener('click', ()=>{
+     const list1 = document.createElement('li')
+     list1.innerHTML = "   <img src='images/camera.jpg' style='height: 50px; width: 40px; margin-top:5%; margin-left:1%; display:flex;'>" + "<p>Camera</p>" + "2,499"+ "<button style = 'margin-left:50px; background-color:red; '>Remove</button>"
+     ul.append(list1)
+     list1.style.marginLeft = "100px"
+     list1.style.marginTop = "80px"     
+   })
+   cream.addEventListener('click', ()=>{
+     const list1 = document.createElement('li')
+     list1.innerHTML = "   <img src='images/cream.jpg' style='height: 50px; width: 40px; margin-top:5%; margin-left:1%; display:flex;'>" + "<p>Cream</p>" + "489" + "<button style = 'margin-left:50px; background-color:red;'>Remove</button>"
+     ul.append(list1)
+     list1.style.marginLeft = "100px"
+     list1.style.marginTop = "80px"
+   })
+   gamepad.addEventListener('click', ()=>{
+     const list1 = document.createElement('li')
+     list1.innerHTML = "   <img src='images/gamepad.jpg' style='height: 50px; width: 40px; margin-top:5%; margin-left:1%; display:flex;'>" + "<p>Gamepad</p>" + "4,999" + "<button style = 'margin-left:50px; background-color:red;'>Remove</button>"
+     ul.append(list1)
+     list1.style.marginLeft = "100px"
+     list1.style.marginTop = "80px"
+   })
+   headphone.addEventListener('click', ()=>{
+     const list1 = document.createElement('li')
+     list1.innerHTML = "   <img src='images/headphone.jpg' style='height: 50px; width: 40px; margin-top:5%; margin-left:1%; display:flex;'>" + "<p>Headphone</p>" + "3,999" + "<button style = 'margin-left:50px; background-color:red;'>Remove</button>"
+     ul.append(list1)
+     list1.style.marginLeft = "100px"
+     list1.style.marginTop = "80px"
+   })
+   hometheatre.addEventListener('click', ()=>{
+     const list1 = document.createElement('li')
+     list1.innerHTML = "   <img src='images/hometheatre.jpg' style='height: 50px; width: 40px; margin-top:5%; margin-left:1%; display:flex;'>" + "<p>Hometheatre</p>" + "9,999" + "<button style = 'margin-left:50px; background-color:red;'>Remove</button>"
+     ul.append(list1)
+     list1.style.marginLeft = "100px"
+     list1.style.marginTop = "80px"
+   })
+   powerbank.addEventListener('click', ()=>{
+     const list1 = document.createElement('li')
+     list1.innerHTML = "   <img src='images/powerbank.jpg' style='height: 50px; width: 40px; margin-top:5%; margin-left:1%; display:flex;'>" + "<p>Powerbank</p>" + "1,500" + "<button style = 'margin-left:50px; background-color:red;'>Remove</button>"
+     ul.append(list1)
+     list1.style.marginLeft = "100px"
+     list1.style.marginTop = "80px"
+   })
+   soap.addEventListener('click', ()=>{
+     const list1 = document.createElement('li')
+     list1.innerHTML = "   <img src='images/soap.jpg' style='height: 50px; width: 40px; margin-top:5%; margin-left:1%; display:flex;'>" + "<p>Soap</p>" + "249" + "<button style = 'margin-left:50px; background-color:red;'>Remove</button>"
+     ul.append(list1)
+     list1.style.marginLeft = "100px"
+     list1.style.marginTop = "80px"
+   })
+   speaker.addEventListener('click', ()=>{
+     const list1 = document.createElement('li')
+     list1.innerHTML = "   <img src='images/speaker.jpg' style='height: 50px; width: 40px; margin-top:5%; margin-left:1%; display:flex;'>" + "<p>Speaker</p>" + "1,199" + "<button style = 'margin-left:50px; background-color:red;'>Remove</button>"
+     ul.append(list1)
+     list1.style.marginLeft = "100px"
+     list1.style.marginTop = "80px"
+   })
+   watch.addEventListener('click', ()=>{
+     const list1 = document.createElement('li')
+     list1.innerHTML = "   <img src='images/watch.jpg' style='height: 50px; width: 40px; margin-top:5%; margin-left:1%; display:flex;'>" + "<p>Watch</p>" + "3,999" + "<button style = 'margin-left:50px; background-color:red;'>Remove</button>"
+     ul.append(list1)
+     list1.style.marginLeft = "100px"
+     list1.style.marginTop = "80px"
+   })
+   wheel.addEventListener('click', ()=>{
+     const list1 = document.createElement('li')
+     list1.innerHTML = "   <img src='images/wheel.jpg' style='height: 50px; width: 40px; margin-top:5%; margin-left:1%; display:flex;'>" + "<p>Wheel</p>" + "5,100" + "<button style = 'margin-left:50px; background-color:red;'>Remove</button>"
+     ul.append(list1)
+     list1.style.marginLeft = "100px"
+     list1.style.marginTop = "80px"
+   })
+
+
+    
+   submit.addEventListener('click', () => {
+    alert("Your Issues has been Submitted")
+   })
+
+   </script>
+</body>
+</html>
